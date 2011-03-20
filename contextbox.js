@@ -200,8 +200,8 @@ var ContextBox = Class.create({
               top: top - this.buttonDistance
             },
             arrow:{
-              //left: dimensions.width/2 - (arrowDimensions.width/2),
-              //top: dimensions.height
+              left: dimensions.width/2 - (arrowDimensions.width/2),
+              top: dimensions.height
             },
             contextboxClass: this.topClass,
             arrowClass:  this.bottomClass
@@ -224,8 +224,8 @@ var ContextBox = Class.create({
               top: top
             },
             arrow:{
-              //left: -1*arrowDimensions.width,
-              //top: dimensions.height/2 - (arrowDimensions.width/2)
+              left: -1*arrowDimensions.width,
+              top: dimensions.height/2 - (arrowDimensions.width/2)
             },
             contextboxClass: this.rightClass,
             arrowClass:  this.leftClass
@@ -248,8 +248,8 @@ var ContextBox = Class.create({
               top: top
             },
             arrow:{
-              //left: dimensions.width,
-              //top: dimensions.height/2 - (arrowDimensions.width/2)
+              left: dimensions.width,
+              top: dimensions.height/2 - (arrowDimensions.width/2)
             },
             contextboxClass: this.leftClass,
             arrowClass:  this.rightClass
@@ -272,8 +272,8 @@ var ContextBox = Class.create({
               top: top + this.buttonDistance
             },
             arrow:{
-              //left: dimensions.width/2 - (arrowDimensions.width/2),
-              //top: -1*arrowDimensions.height
+              left: dimensions.width/2 - (arrowDimensions.width/2),
+              top: -1*arrowDimensions.height
             },
             contextboxClass: this.bottomClass,
             arrowClass:  this.topClass
@@ -359,8 +359,8 @@ var ContextBox = Class.create({
     }).bind(this);
     
     this.element.morph({
-      //left: direction.start.left + "px",
-      //top: direction.start.top + "px",
+      left: direction.start.left + "px",
+      top: direction.start.top + "px",
       opacity: 0
     },animation_option);
     
