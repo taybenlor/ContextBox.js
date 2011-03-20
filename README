@@ -1,12 +1,15 @@
-== ContextBox.js
+*ContextBox.js*
+
 Is a simple to use library for creating highly flexible and styleable Contextual Modal Boxes.
 
 As featured heavily on http://halftoneapp.com
 
-== Dependencies
+*Dependencies*
+
 Prototype
 
-== Future Work
+*Future Work*
+
 Port to JQuery
 Create Test Suite
 Add examples
